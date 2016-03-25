@@ -1,7 +1,6 @@
 import numpy as np
 from datetime import datetime
 
-
 def strdate2num(s):
     return datetime.strptime(s, '\"%Y-%m-%d').date().weekday()
 
