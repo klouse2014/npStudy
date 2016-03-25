@@ -7,4 +7,5 @@ def strdate2num(s):
 
 dates, close = np.loadtxt("data.csv", delimiter=',', usecols=(0,5), converters={0:strdate2num}, unpack=True)
 
+
 print dates, close
